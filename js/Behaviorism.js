@@ -1265,7 +1265,7 @@ function viewHandleKeypress(event)
 	}
 	//Waiting for input on view task comments
 	else if (currGame.state == 50) {
-		if (event.charCode == 49 && parseInt(localStorage['tasks.'+viewTask+'.comments']) < 4) {
+		if (event.charCode == 49 && (localStorage['tasks.'+viewTask+'.comments'] == undefined || parseInt(localStorage['tasks.'+viewTask+'.comments']) < 4)) {
 			currGame.endState(51);
 		}
 		else if (event.charCode == 50) {
