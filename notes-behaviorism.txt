@@ -1,0 +1,57 @@
+ITEC 800 Learning Design Project #1 - Behaviorism and Conditioning
+
+Develop a system that applies behavioristic learning to a simple input-output logic.
+
+For this project, the input will be typing, but the system is setup so that (hopefully) changing inputs will require little work.
+		
+The student will open the page and immediately be prompted to engage with the system. 
+
+Questions:
+	Consider who your learner is and what their goals are for this activity.
+		The learner is a computer user who may or may not have any experience with typing.
+		The goal is to learn to type letters on a keyboard as quickly and accurately as possible. These skills are tested in a chained behavior. In this example, that behavior is typing a certain number of keys within a certain time limit and by making less than a certain number of mistakes.
+	How many discreet tasks to accomplish the goal. (shaping events)
+		1. Correctly identifying the letter on the screen.
+		2. Recognizing the same letter on the keyboard.
+		3. Pressing that corresponding key.
+	How to combine tasks into a completed activity. (chaining events)
+		1. Chain these events together through repetition and reward.
+	What is/are the reinforcement strategies (i.e. rewards, positive/negative) and training schedule?
+		1. I wanted to make this system adaptable, so I built in a large combination of reinforcement strategies. As the system is currently set up, the student continues through these different reinforcement strategies without initially knowing when or how they are changing. As they learn these skills better, the reinforcement strategy changes. A future goal of mine with this system is to develop a more effective method of using these strategies in order to provide the most efficient (time/learned behavior) possible.
+	How to remove reinforcements while maintaining learned activity. (fading events)
+		1. As the activity progress, the user is reinforced by strategies that are less predictable, and occur less often. By the end of the activity, there is no reinforcements at all.
+
+The system is composed of three conceptual objects: the user, the logic of the input and output rules, and the logic of the activity--in this case, the rules of behaviorism. The user object, in true behaviorist style, contains no information about the student other than how many times they have responded correctly and incorrectly to the stimulus. The input/output logic is very simple in this case, they must type the correct letter. The activity logic provides the system with the rules for reinforcement strategies consistent with behaviorist theory. My hope is that each of these systems will be independent enough to switch out with other objects. For example, switching out the input/output rules to teach something other than typing, or switching out the activity rules with a theory other than behaviorism.
+
+Behaviorism Logic:
+	1. Teach how to type.
+		a. Reach a certain threshold of:
+			i. Correct / Incorrect
+			ii. Speed of correct answers (letters/second)
+			iii. Correct in a row (chaining)
+	2. Chain typing skills together and test behavior.
+		a. Test of skills above, so:
+			i. Incorrect response will make the count start over.
+			ii. Lack of speed will make the count start over.
+			iii. How many times can the person type the letters correctly without making a mistake?
+			
+Fading:
+	Score value of simple correct responses lowers as the player's skill improves. Player must answer more accurately and faster and more correctly in a row to maintain the same pace of score increase. Eventually, all reinforcements cease.
+	
+Reward Variability:
+	Position of letters increase in difficulty as player's skill rises. Score value is based on successful recognition and response to the randomized position of a letter.
+	
+Level Development:
+	Each level includes the reinforcement schedules of the previous levels unless they are mutually exclusive.
+	Shaping - Level 0 - Positive reinforcement, fixed ratio schedule
+	Shaping - Level 1 - Negative reinforcement
+	Chaining - Level 2 - Fixed interval schedule
+	Chaining - Level 3 - Variable ratio schedule
+	Fading - Level 4 - Variable interval schedule
+	Fading - Level 5 - Positive removal, variable ratio
+	Fading - Level 6 - Negative Removal, variable interval
+	Fading - Level 7 - No reinforcement
+		
+Citations:
+	Driscoll 3rd Ed. (2005) Psychology of Learning for Instruction, p.37.
+	P. Donohue, personal communication, Feb. 12, 2014.

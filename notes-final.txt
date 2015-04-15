@@ -1,0 +1,66 @@
+Learning Design Project #3: Constructivism
+Personal Design Study: Social/Situated Learning
+Goal
+Develop a tool for users to create computer-based psychomotor exercises to teach various tasks and improve performance on those tasks.
+
+Important features
+Designed and created using an approach that focuses on constructivist and social/situated learning theoretical models.
+The assignment for learners is to design and develop a task that improves the specific psychomotor skill they are attempting to teach.
+Learners take an active, creative, and social approach to designing their task, and the tool provides the ability for learners to successfully carry such a task out.
+Players get to hone their psychomotor skills at their leisure on tasks of their choosing, and can track their improvement over time (FLDP).
+Scores are update in real-time to encourage social engagement.
+Users participate in a community of practice to develop their skills through authentic activity.
+
+Motivation
+The Create feature of “Letters” serves multiple purposes. First, it is meant to provide more stimulating engagement with the “Letters” system than simply exercising your psychomotor skills can. By increasing the complexity and depth of the activity, I hope to increase the complexity and depth of the rewards one receives by engaging in it. Create achieves this by giving the user not only the ability to modify the activity in certain ways, but also by providing different activities all together. No longer is the user passively responding to stimulus, but they are actively taking part in a social, creative process, and this should increase motivation to continue to engage in that activity. (Citation)
+
+Second, by grounding the activity in a Constructivist framework, I aim to provide a different way of engaging with the material altogether. Each of the features of “Letters” is based in a different theoretical learning system, by providing another point of engagement with the psychomotor exercises of the system, i.e. active and creative rather than passive and competitive, the complete system will reach users who are not stimulated by the other learning systems. (Citation) Not only will “Letters” appeal more to a broader audience, but through the different interactions, knowledge will be gained and stored in multiple ways. (Citation)
+
+Finally, Create is meant to be a way of contextualizing the psychomotor skills learned in “Letters” to more applications than simply typing on computer keyboard. The creative freedom allowed in Create can be used to apply the psychomotor skills practiced to any situation that could be analogously created on a computer screen. Of course, the transfer of knowledge and skills will depend on the capability of the creator in contextualizing the psychomotor skills properly, but the ability is there. For example, a repetitive psychomotor skill such as chopping vegetables could be contextualized in “Letters” by mimicking the environment of a kitchen: certain letters would need to be "chopped", or typed, rapidly and only in a certain location on the screen. This transfer of knowledge should improve the retention and application of what is learned. (Citation)
+
+Walk-Through
+When the learner first selects Create, they are presented with the option to create a new task (i.e. level), or to open up an existing task. If they choose to create their own task, they are shown a screen with various fields to input: Title, Description, and References. Once complete, they can choose to leave this task as a skeleton for others to build levels for, or they can continue on to build their own level for this task. When they choose to open up an existing task they will see the title, description and references that someone else has created.
+
+If they choose to build a level for their task, or someone else's, they move on to a visual level editor where they design the background image for their level. After the background image is complete, they will move on to designing the logic for the level. The logic includes: characters available for display, whether distractors are active or not, positions of characters, score feedback, success and failure conditions, etc. Once complete, they can test our their task, and either step back through the process to modify their level, or save it as complete. Once complete, the level cannot be edited anymore.
+
+At this point, they may choose to play their level, or play a level created by another learner. When they select a level to play, they will see a summary screen of the level, as well as any comments that users have left on the level, as well as a high score table of previous top scores for that level. At this point, they can choose to play the level, or go back and browse through other available levels.
+
+Theoretical Applications
+Constructivist
+The main theoretical sources I'm drawing from are Marcy Driscoll's Psychology of Learning for Instruction, and David Perkin's The Many Faces of Constructivism.
+
+I have sought to apply each of Driscoll's five conditions for learning in this feature:
+
+1. Embed learning in complex, realistic, and relevant environments (Driscoll, 2005).
+	a. Users who play the levels created by other users will be training their psychomotor skills in a variety of complex environments, some more realistic and relevant than others.
+2. Provide for social negotiations as an integral part of learning (Driscoll, 2005).
+	a. I have incorporated a number of social features, including: discussion on levels, competition through high scores tables, and cooperation by allowing task levels to be created by multiple users.
+3. Support multiple perspectives and the use of multiple modes of representation (Driscoll, 2005).
+	a. Multiple modes of representation are exemplified by the use of multi-sensory feedback, and multiple perspectives can be examined through the ability to create multiple unique levels for each task.
+4. Encourage ownership in learning (Driscoll, 2005).
+	a. As users create tasks and levels, they are taking ownership of their own, and others, learning.
+5. Nurture self-awareness of the knowledge construction process (Driscoll, 2005).
+	a. The discussions regarding tasks will provide the opportunity for users to reflect critically on their own, and others creative products.
+
+Additionally, the type of knowledge the particular psychomotor skills exercised in "Letters" most resembles is Perkin's Ritual Knowledge. These psychomotor skills become part of the ritual of daily life: typing on a keyboard, driving while distracted, etc. The goal here is to make them more meaningful. (Perkins 1999) To do this, Perkins recommends problem-based learning, discussion, and contextualizing the information. The `Create` feature of "Letters" is designed to do all of those things by giving users the ability to create and solve learning challenges in social and complex ways.
+
+Social Learning
+By incorporating a number of social features in the `Create` activity, I have tried to incorporate a number of techniques from learning theories that put more emphasis on social factors than the traditionally individualistic emphasis of constructivism.
+
+Jean Lave's theory of situated learning is what I have drawn from most heavily, specifically Lave's idea of a community of practice. (Citation) First of all, I have attempted to situate the learning acquired in "Letters" in two ways: 1. learners are asked to play games that are no longer abstract typing programs, but analogous to real-world situations; 2. users are no longer passively participating in a learning activity, but are tasked to create tasks that will teach others. By allowing users to share their projects with others, work on projects created by others, and discuss and critique each other's creations, I have also provided the basic tools for a community to develop that will be able to share best practices and techniques amongst themselves.
+
+Final Thoughts
+Finally, the lesson learned from this project is one of motivation and engagement. When I began this project, I aimed to create something that would apply various learning theories to a simple game, and ultimately provide an enjoyable experience for the user. I think, in the most basic sense, I have succeeded. Where I think I have failed is in my choice of activity, i.e. the gameplay.
+
+Much of the work done here to apply learning theories to a gameplay environment could be carried over to a new, much more engaging, project. While there are some features of "Letters" that make it enjoyable, I think it is unlikely it will ever find an audience due to its simplistic content.
+
+Due to the this fact, it may be more suited to children learning to type, or interact with a computer keyboard, than any other audience. And perhaps that's not such a failing. Seen in this light, the whole system could in fact be quite useful. Children could train and challenge others in their age group, and teachers and educators could be the ones to use the `Create` tool to design new levels.
+
+If I were to continue developing this project, and, in fact, if I were to start over with a similar project, I would initially put a lot more effort into defining the points we learned in class:
+
+1. Who is the audience?
+2. What is the content to be learned?
+3. What is the best method of instruction given the audience and content; and
+4. What technology would be most suitable for the learning project?
+
+I think the first, and to a lesser degree, the second, questions were not well-enough defined in this case to produce a project that is as successful as a learning experience as it could be.

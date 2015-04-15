@@ -1,0 +1,69 @@
+ITEC 800 Learning Design Project #2 - Cognitivism
+
+In this project, I modified the project I developed for LDP #1 to incorporate learning techniques based on cognitive learning theory.
+
+I maintained much of the original project in the new project to show how these two theories are compatible, or rather, to see how these two theories actually complement each other by targeting different parts of the learning experience.
+
+There are a couple specific aspects of cognitive theory that guided my application of theory to this learning experience: 1) Gagne's conditions of learning, 2) Gagne's nine events of instruction, and 3) recommendations from Dr. Donohue on cognitivist tools for learning experiences.
+
+I'll begin with the fundamental structure of the assignment, and how Gagne's conditions of learning directed my development of the project. Initially, I thought that the project I had created for LDP #1 was a game/interactive experience that would eventually function as a means for teaching typing. As I began to look at other resources for learning typing, and thought about how I wanted my own project to function, I realized that typing was not what I sought the learner to become better at. Rather, and through Gagne's framework, I saw that what I sought to develop was a learning experience that focused on improving the learner's psychomotor skills. Once I had this framework in place, the development of the project became much clearer to me.
+
+Gagne argues that the conditions required for the development of motor skills involves three stages: 1) learning the sequence of the movement, 2) practicing the movement, 3) refining the movement from the feedback from the environment. I incorporate these conditions into my experience as follows: 1) the experience begins in an environment that is extremely forgiving, where mistakes have no penalty, and the learner simply has to type the corresponding key on the keyboard in response to a stimulus presented on the screen. This allows the learner to focus completely on learning the sequence of the movement. 2) The next phase of the experience presents different challenges to the user while remaining within the same sequence of movement. They practice the movement over and over in different conditions, i.e. with different objectives in mind. Finally, 3) They are given feedback continuously during the experience. Initially, this feedback comes after every keystroke, but eventually fades to ensure the learner has internalized the process. Not only that, but at the end of each segment of play, the user is presented with a screen that details the particulars of their play for that segment. On that same screen is instruction regarding the objective of the next level, as well as how they might improve their performance by using certain established typing techniques. There features ensure that an "executive subroutine [is established] and [provides] for mental rehearsal [through] ... several repetitions of skills with correct feedback."
+
+Additionally, I used Gagne's nine events of instruction to structure the experience for the learner:
+
+Category - Cognitive Process* - Event # - Instructional Event
+1 - Reception - 1 - Gaining attention
+1 - Expectancy - 2 - Informing learners of the objective
+1 - Retrieval** - 3 - Stimulating recall of prior learning
+2 - Selective Perception - 4 - Presenting the stimulus
+2 - Semantic Encoding - 5 - Providing learning guidance
+2 - Responding - 6 - Eliciting performance
+3 - Reinforcement - 7 - Providing feedback
+3 - Retrieval - 8 - Assessing performance
+3 - Generalization - 9 - Enhancing retention and transfer
+
+		*Internal executive control process
+		**Prior knowledge
+
+These nine events are separated into three sequential categories, viz., 1) preparing for learning: gain attention, inform objectives, and stimulate recall of prior knowledge; 2) acquisition and performance: present stimulus material, provide learner guidance, elicit performance an provide feedback; 3) transfer of learning: assess performance and enhance retention and transfer process.
+
+I adapted these nine events as follows:
+
+G1 - Play a short clip of what the game looks like on the highest level to gain attention. This clip is fast and engaging.
+G2 - Inform learners of the objective. Show finger position panel (Image shows where fingers go, and which fingers hit which keys). At the same time, the user is informed of the level's goal/objective.
+G3 - Provide user's with instructions to play/practice, then play a 10 second test to recall previous learning and find placement level.
+G4 - Set placement level. The pre-test dynamically modifies the conditions for each level's success. A user can play the game over and over again, and each time it adapts to the user's skills to continue to challenge them. 
+G5 - Show finger position panel (Image shows where fingers go, and which fingers hit which keys). At the same time, the user is informed of the next level's goal/objective.
+G6 - Provide feedback by placing the score number in the user's view, i.e. where the user's eye is focused (near letter). Also, the game keeps a running score during the whole experience.
+G7 - Show level assessment with stats from the previous level's play.
+G8 - Show level assessment with stats. TODO - Develop a test that the user has to complete in order to provide a standard assessment of their learning. This test will incorporate all of the learning they have done in this environment to improve their psychomotor skills in a standardized way. They will be presented with varying stimulus and will have to respond correctly to that stimulus, without making mistakes, in order to complete a defined task. In this case, they will use letters to complete the sentence, ""The quick brown fox jumps over the lazy dog." Their stats will be tallied, and they will have this as a standard metric for their skill level, and their improvement over time.
+G9 - TODO - Play a short game mode to generalize what they have learned. This game mode will use the psychomotor skills that they have developed in the main experience in a different situation. In the new game mode, the user will be presented with an image resembling the interior of a car. In the bottom center of the screen will be an image resembling a phone. The phone will present the correct stimulus, and in the rest of the screen stimulus will be presented that are mainly distractors. The user will have to focus their attention both on the phone, and on the stimulus match the two. The point of this is to show the user how difficult it is to split your attention between two competing types of stimulus in an environment by giving them an everyday situation where that occurs.
+
+Finally, some of the recommendations from Dr. Donohue have been incorporated: 1) advanced organizer - the set up and presentation of the skill before practice; 2) practice and repetition; 3) guided investigative composition - breaking the skill into discrete tasks/objectives that the user is guided through; 4) increasing salience - by the end of the experience, the user must learn to determine which letters are salient to the task presented to them.
+
+The level progresses systematically. Each level incorporates the skill from the previous levels, but adds a new challenge.
+
+Level - Objective
+0 - Number correct
+1 - Correct/Incorrect ratio
+2 - Correct in a row
+3 - Number correct + speed
+4 - Correct/Incorrect ratio + speed
+5 - Correct in a row + speed
+6 - (add difficulty) Font size changes
+7 - (add difficulty) Distractors (font color changes)
+
+Citations:
+
+Gagné, R. M. (1965). The conditions of learning and theory of instruction ( 1st ed.). New York, NY: Holt, Rinehart & Winston.
+
+Gagné, R. M., & Briggs, L. J. (1974). The principles of instructional design ( 1st ed.). New York, NY: Holt.
+
+Gagné, R. M. (1985). The conditions of learning and theory of instruction ( 4th ed.). New York, NY: Holt, Rinehart & Winston.
+
+Gredler, M. E. (1997). Learning and instruction: Theory into practice. Upper Saddle River, NJ: Prentice-Hall, Inc.
+
+Merrill, M. D., Li, Z., & Jones, M. K. (1991a). Second generation instructional design (ID2). Educational Technology, 30(1), 7-11.
+
+Donohue, P. CIP model slides [PowerPoint slides]. Retrieved from ITEC 800 Week 4: http://ilearn.sfsu.edu

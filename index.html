@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>cognitivism - intertain.org - investing in our future through digital literacy</title>
+<link rel="icon" href="icon.png" type="image/png" />
+<link rel="stylesheet" type="text/css" href="css/html5reset.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" href="css/smoothness/jquery-ui-1.8.13.custom.css" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="js/excanvas.compiled.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/Behaviorism.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		initBehaviorism(null);
+		
+		$('#chk_debug').prop('checked', 'checked');
+		
+		$("#sldr_level").slider({
+			value:1,
+			min:1,
+			max:8,
+			step:1,
+			change: function( event, ui ) {currGame.changeLevel(ui.value);}
+		});
+		
+		$('#chk_debug').change(function(){
+			if (mainView.debug) {
+				$('#debug').css('display', 'none');
+				$('#level').css('display', 'none');
+			}
+			else {
+				$('#debug').css('display', 'block');
+				$('#level').css('display', 'block');
+			}
+			
+			mainView.debug ^= true;
+		});
+		
+		function preloadImg() {
+			for (var i = 0; i < preloadImg.arguments.length; i++) {
+				aImages[i] = new Image();
+				aImages[i].src = preloadImg.arguments[i];
+			}
+		}
+		preloadImg(
+			"images/level1.png",
+			"images/level2.png",
+			"images/driving.png"
+		);
+		
+		function preloadAud() {
+			for (var i = 0; i < preloadAud.arguments.length; i++) {
+				aAudio[i] = new Audio();
+				aAudio[i].src = preloadAud.arguments[i];
+			}
+		}
+		preloadAud(
+			"audio/good.mp3",
+			"audio/bad.mp3"
+		);
+		
+		for (var i in aAudio) {
+			$('#hidden').append('<audio src='+aAudio[i].src+'><p>Your browser does not support the audio element.</p></audio>');	
+		}
+		
+		for (var i in aAudio) {
+			aAudio[i].elem = $('audio:eq('+i+')');
+		}
+		
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		 $('#input').css('display', 'block');
+		}
+	});
+</script>
+</head>
+<body>
+	<div id="Behaviorism">
+		<div id="check">
+			<input id="chk_debug" type="checkbox" value="true" checked="checked">
+			<label for="chk_debug">Debug?</label>
+		</div>
+		<div id="debug"></div>
+		<div id="level">
+			<label for="sldr_level">Change level:</label>
+			<div id="sldr_level"></div>
+		</div> <!-- end #level -->
+	</div> <!-- end #Behaviorism -->
+	<input id="input" style="display:none;" type="text" autocorrect="off" autocapitalize="off">
+	<div id="hidden" style="display:none;">
+	</div> <!-- end #hidden -->
+</body>
+</html>
