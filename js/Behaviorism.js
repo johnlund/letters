@@ -447,8 +447,8 @@ logic.prototype.stateFunctions = function()
 			gDrawingContext.fillText("Letters", 0, 0);
 			gDrawingContext.fillText("1) Train", 0, kMsgSize*2);
 			gDrawingContext.fillText("2) Challenge", 0, kMsgSize*3);
-			gDrawingContext.fillText("3) Create", 0, kMsgSize*4);
-			gDrawingContext.fillText("Type 1, 2, or 3 to begin.", 0, kMsgSize*6);
+			//gDrawingContext.fillText("3) Create", 0, kMsgSize*4);
+			gDrawingContext.fillText("Type 1 or 2 to begin.", 0, kMsgSize*6);
 			
 			while (!user) {
 				user = prompt("Username?");
@@ -1153,7 +1153,7 @@ function viewHandleKeypress(event)
 				currGame.endState(12);
 				break;
 			case 51:
-				currGame.endState(20);
+				//currGame.endState(20);
 				break;
 		}
 		return;
