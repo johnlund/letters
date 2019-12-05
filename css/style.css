@@ -18,6 +18,10 @@ body {
 	font: bold 14px sans-serif;
 }
 
+#check, #debug, #level {
+	display: none;
+}
+
 #debug {
 	font-size:24px;
 	margin:5px 0;
