@@ -1,3 +1,3 @@
 letters
 
-https://johnlund.github.io/letters/
+https://johnclund.github.io/letters/
